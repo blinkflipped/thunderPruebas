@@ -130,11 +130,11 @@ __webpack_require__.r(__webpack_exports__);
 (function (blink) {
   'use strict';
 
-  var ThunderClonableStyle = function () {
+  var ThunderPruebasStyle = function () {
     blink.theme.styles["thunder"].apply(this, arguments);
   };
 
-  ThunderClonableStyle.prototype = {
+  ThunderPruebasStyle.prototype = {
     parent: blink.theme.styles["thunder"].prototype,
     bodyClassName: 'content_type_clase_thunder-clonable',
     extraPlugins: ['image2'],
@@ -149,8 +149,8 @@ __webpack_require__.r(__webpack_exports__);
     },
     ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
   };
-  ThunderClonableStyle.prototype = _.extend({}, new blink.theme.styles["thunder"](), ThunderClonableStyle.prototype);
-  blink.theme.styles['thunder-clonable'] = ThunderClonableStyle;
+  ThunderPruebasStyle.prototype = _.extend({}, new blink.theme.styles["thunder"](), ThunderPruebasStyle.prototype);
+  blink.theme.styles['thunder-clonable'] = ThunderPruebasStyle;
 })(blink);
 
 /***/ }),
